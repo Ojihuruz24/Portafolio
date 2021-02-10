@@ -19,6 +19,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="~/css/StyleMenu.css" rel="stylesheet" />
 </head>
@@ -37,7 +38,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">Acerca de</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contactar</a></li>
                 </ul>
             </div>
         </div>
@@ -57,7 +58,7 @@
             </div>
             <!-- Masthead Subheading-->
             <p class="masthead-subheading font-weight-light mb-0">
-                - C# - .NET - WPF - Protocol HTTP/HTTPS - GitHub - SQL Server - Mysql - HTML5 - CSS3 - WPF - ASP.NET MVC
+                - C# - .NET - WPF - Protocol HTTP/HTTPS - GitHub - SQL Server - HTML5 - WPF - ASP.NET MVC
             </p>
         </div>
     </header>
@@ -78,9 +79,10 @@
                 <div class="col-md-6 col-lg-4 mb-5">
                     <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                         <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                            <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            <div class="portfolio-item-caption-content text-center text-white">
+                            <i class="fas fa-plus fa-3x"></i></div>
                         </div>
-                        <img class="img-fluid" src="~/assets/img/portfolio/cabin.png" alt="" />
+                        <img class="img-fluid mx-auto d-block" src="~/assets/img/portfolio/inventario.png" alt="sd" />
                     </div>
                 </div>
                 <!-- Portfolio Item 2-->
@@ -166,7 +168,7 @@
     <section class="page-section" id="contact">
         <div class="container">
             <!-- Contact Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-2">Contactar</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -181,28 +183,28 @@
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                 <label>Name</label>
-                                <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name." />
+                                <input class="form-control" id="name" type="text" placeholder="Nombre" required="required" data-validation-required-message="Please enter a message." />
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                 <label>Email Address</label>
-                                <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address." />
+                                <input class="form-control" id="email" type="email" placeholder="Correo" required="required" data-validation-required-message="Please enter your email address." />
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                 <label>Phone Number</label>
-                                <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number." />
+                                <input class="form-control" id="phone" type="tel" placeholder="Telefono" required="required" data-validation-required-message="Please enter your phone number." />
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
                         <div class="control-group">
                             <div class="form-group floating-label-form-group controls mb-0 pb-2">
                                 <label>Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Mensaje" required="required" data-validation-required-message="Please enter a message."></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -268,7 +270,10 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <!-- Portfolio Modal - Title-->
-                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">Log Cabin</h2>
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0" id="portfolioModal1Label">
+                                    Implementación del software a la medida de productos a base de maíz para la
+                                    distribuidora Arepal.
+                                </h2>
                                 <!-- Icon Divider-->
                                 <div class="divider-custom">
                                     <div class="divider-custom-line"></div>
@@ -276,15 +281,64 @@
                                     <div class="divider-custom-line"></div>
                                 </div>
                                 <!-- Portfolio Modal - Image-->
-                                <img class="img-fluid rounded mb-5" src="~/assets/img/portfolio/cabin.png" alt="" />
+                                <img class="img-fluid rounded mb-5" src="~/assets/img/portfolio/inventario.png" alt="" />
                                 <!-- Portfolio Modal - Text-->
-                                <p class="mb-5">DAYAN ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                                <button class="btn btn-primary" data-dismiss="modal">
-                                    <i class="fas fa-times fa-fw"></i>
-                                    Close Window
-                                </button>
+                                <p class="text-left">
+
+                                    La tecnología puede ser un valioso elemento para ayudar a optimizar procesos
+                                    administrativos y organizativos en cualquier tipo de empresa, pues resulta muy provechosa para
+                                    el mejoramiento de tiempos en cuanto a la generación de informes de ventas y compras al
+                                    momento de requerir información sobre alguna venta o compra de un periodo determinado. Se
+                                    hace necesario realizar este proyecto para la distribuidora Arepal con el fin de mejorar su
+                                    administración. Su eficiencia podría mejorar con el uso adecuado de una buena tecnología, en
+                                    este caso, del desarrollo de un buen software a medida.
+                                    Además, no solo se vería beneficiada la distribuidora, también los clientes, ya que habría
+                                    una mayor productividad, se obtendrían mayores ingresos al tener controlado el inventario,
+                                    conociendo qué podría necesitarse para realizar cada tipo de arepa que tienen en su catálogo de
+                                    mercancía; de igual manera, se reducirían los gastos en papelería y en libretas por la
+                                    administración manual para las listas hechas a mano. Es un proyecto importante que merece ser
+                                    desarrollado.  <br />
+                                </p>
                             </div>
                         </div>
+                        <table >
+                            <tr>
+                                <td>
+                                    <img class="img-fluid rounded mb-5" src="~/assets/img/AREPAL/VENTAS.png" alt="" />
+                                </td>
+                                <td>    
+                                    <img class="img-fluid rounded mb-5" src="~/assets/img/AREPAL/COMPRAS.png" alt="" />
+                                </td>
+                            </tr>
+                            <tr>
+                                <td >
+                                    <img class="img-fluid rounded mb-5" src="~/assets/img/AREPAL/REPORTES.png" alt="" />
+                                </td>
+                                <td>
+                                    <img class="img-fluid rounded mb-5" src="~/assets/img/AREPAL/ReporteVenta.png" alt="" />
+                                </td>
+                            </tr>
+                        </table>
+                        <div class="row justify-content-center">
+                            <p class="text-left">
+                                <b>El software incluye:</b> <br />
+                                • Ingreso al sistema de nuevos productos.<br />
+                                • Ingreso al sistema de nuevos proveedores.<br />
+                                • Ingreso al sistema de nuevos clientes.<br />
+                                • Registro de ventas entre cliente-empresa.<br />
+                                • Registro de compras entre empresa-proveedor.<br />
+                                • Consulta de productos en el inventario, clientes y proveedores.<br />
+                                • Capacitación al usuario administrador para el manejo del sistema de software.<br />
+                                • Emisión de reportes: Ventas y compras de productos en determinado periodo de tiempo.
+                            </p>
+                          
+                        </div>
+                        <div class="row justify-content-center">
+                            <button class="btn btn-primary" data-dismiss="modal">
+                                <i class="fas fa-times fa-fw"></i>
+                                Close Window
+                            </button>
+                        </div class="row justify-content-center">
                     </div>
                 </div>
             </div>
